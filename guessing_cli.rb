@@ -9,7 +9,7 @@ def run_guessing_game
 
     if user_input == rng
       puts "You guessed the correct number!"
-    else 
+    elsif user_input != rng 
       puts "The computer guessed #{rng}" 
     end
     
